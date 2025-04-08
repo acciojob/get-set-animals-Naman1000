@@ -1,33 +1,34 @@
 //complete this code
 class Animal {
-	constructor(species){
-		this._species =species;
-		
+	constructor(species) {
+		this._species = species;
 	}
-	get species(){
-		return this._species
+
+	get species() {
+		return this._species;
 	}
-	 makeSound() {
-    console.log(`The ${this.species}makes a sound`);
-  }
+
+	makeSound() { // Corrected method definition
+		console.log(`The ${this.species} makes a sound`); // Added space
+	}
 }
 
 class Dog extends Animal {
 	constructor(species) {
-    super(species); // Call parent constructor
-  }
+		super(species); // Call parent constructor
+	}
 
-	bark(){
+	bark() { // Corrected method definition
 		console.log('woof');
 	}	
 }
 
 class Cat extends Animal {
 	constructor(species) {
-    super(species); // Call parent constructor
-  }
+		super(species); // Call parent constructor
+	}
 
-	purr(){
+	purr() { // Corrected method definition
 		console.log("purr");
 	}
 }
