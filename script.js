@@ -9,7 +9,7 @@ class Animal {
 	}
 
 	makeSound() { // Corrected method definition
-		console.log(`The ${this.species} makes a sound`); // Added space
+		console.log(`The ${this._species} makes a sound`); // Added space
 	}
 }
 
