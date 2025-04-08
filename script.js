@@ -1,15 +1,15 @@
 //complete this code
 class Animal {
 	constructor(species) {
-		this._species = species;
+		this.species = species;
 	}
 
 	get species() {
-		return this._species;
+		return this.species;
 	}
 
 	makeSound() { // Corrected method definition
-		console.log(`The ${this._species} makes a sound`); // Added space
+		console.log(`The ${this.species} makes a sound`); // Added space
 	}
 }
 
